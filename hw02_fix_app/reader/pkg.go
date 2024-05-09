@@ -27,5 +27,4 @@ func ReadJSON(filePath string) ([]types.Employee, error) {
 	err = json.Unmarshal(byteChar, &data)
 
 	return data, err
-
 }
