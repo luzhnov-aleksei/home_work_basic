@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
 	width, height := 0, 0
 	fmt.Print("Введите ширину поля: ")
