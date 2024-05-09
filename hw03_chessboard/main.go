@@ -1,11 +1,9 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func main() {
-	width,height := 0, 0
+	width, height := 0, 0
 	fmt.Print("Введите ширину поля: ")
 	fmt.Scanln(&width)
 	fmt.Print("Введите высоту поля: ")
