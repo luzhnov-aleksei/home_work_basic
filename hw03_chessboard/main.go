@@ -7,10 +7,10 @@ import (
 
 func main() {
 	width, height := 0, 0
-	fmt.Print("Введите ширину поля: ")
+	fmt.Print("Введите ширину поля : ")
 	_, err := fmt.Scanln(&width)
 	if err != nil {
-		fmt.Println("Ошибка ввода ширины поля:", err)
+		fmt.Println("Ошибка ввода ширины поля :", err)
 		os.Exit(1)
 	}
 	fmt.Print("Введите высоту поля: ")
