@@ -15,13 +15,20 @@ func (b *book) getBaseInfo() string {
 	return "Название книги: " + b.title + "\nАвтор книги: " + b.author
 }
 
-func (b *book) setAll(id int, title, author string, year, size int, rate float64) {
+func (b *book) setID(id int) {
 	b.id = id
+}
+
+func (b *book) setTitle(title string) {
 	b.title = title
-	b.author = author
-	b.year = year
-	b.size = size
-	b.rate = rate
+}
+
+func (b *book) bookID() int {
+	return b.id
+}
+
+func (b *book) bookTitle() string {
+	return b.title
 }
 
 type CompareMode int
@@ -32,14 +39,18 @@ const (
 	ByRate
 )
 
-func (b book) Compare(other book, mode CompareMode) bool {
-	switch mode {
+type Comparator struct {
+	mode CompareMode
+}
+
+func (c Comparator) Compare(b1, b2 book) bool {
+	switch c.mode {
 	case ByYear:
-		return b.year > other.year
+		return b1.year > b2.year
 	case BySize:
-		return b.size > other.size
+		return b1.size > b2.size
 	case ByRate:
-		return b.rate > other.rate
+		return b1.rate > b2.rate
 	default:
 		return false
 	}
@@ -55,12 +66,17 @@ func main() {
 		rate:   4.9,
 	}
 	fmt.Println("Первая книга: ", b1)
-	b2 := book{}
-	b2.setAll(2, "Землянка 2", "Лужнов А.В.", 2024, 189, 5.0)
+	b2 := book{1, "ЗемлЯнка 2", "Лужнов А.В.", 2024, 189, 5.0}
+	b2.setTitle("Землянка 2")
+	b2.setID(2)
+	fmt.Println(b2.bookID(), b2.bookTitle())
 	fmt.Println("Вторая книга:")
 	fmt.Println(b2.getBaseInfo())
 	fmt.Println("\n----Сравнение книг----")
-	fmt.Printf("Сравнение по годам: %d > %d, Итог: %t \n", b1.year, b2.year, b1.Compare(b2, ByYear))
-	fmt.Printf("Сравнение по размеру : %d > %d, Итог: %t \n", b1.size, b2.size, b1.Compare(b2, BySize))
-	fmt.Printf("Сравнение по рейтингу : %g > %g, Итог: %t \n", b1.rate, b2.rate, b2.Compare(b2, ByRate))
+	yearComparator := Comparator{mode: ByYear}
+	sizeComparator := Comparator{mode: BySize}
+	rateComparator := Comparator{mode: ByRate}
+	fmt.Printf("Сравнение по годам: %d > %d, Итог: %t \n", b1.year, b2.year, yearComparator.Compare(b1, b2))
+	fmt.Printf("Сравнение по размеру : %d > %d, Итог: %t \n", b1.size, b2.size, sizeComparator.Compare(b1, b2))
+	fmt.Printf("Сравнение по рейтингу : %g > %g, Итог: %t \n", b1.rate, b2.rate, rateComparator.Compare(b1, b2))
 }
