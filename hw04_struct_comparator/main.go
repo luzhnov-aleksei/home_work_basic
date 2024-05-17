@@ -15,6 +15,7 @@ func (b *book) getBaseInfo() string {
 	return "Название книги: " + b.title + "\nАвтор книги: " + b.author
 }
 
+// Set.
 func (b *book) setID(id int) {
 	b.id = id
 }
@@ -23,12 +24,45 @@ func (b *book) setTitle(title string) {
 	b.title = title
 }
 
+func (b *book) setAuthor(author string) {
+	b.author = author
+}
+
+func (b *book) setYear(year int) {
+	b.year = year
+}
+
+func (b *book) setSize(size int) {
+	b.size = size
+}
+
+func (b *book) setRate(rate float64) {
+	b.rate = rate
+}
+
+// Get.
 func (b *book) bookID() int {
 	return b.id
 }
 
 func (b *book) bookTitle() string {
 	return b.title
+}
+
+func (b *book) bookAuthor() string {
+	return b.author
+}
+
+func (b *book) bookYear() int {
+	return b.year
+}
+
+func (b *book) bookSize() int {
+	return b.size
+}
+
+func (b *book) bookRate() float64 {
+	return b.rate
 }
 
 type CompareMode int
@@ -69,7 +103,11 @@ func main() {
 	b2 := book{1, "ЗемлЯнка 2", "Лужнов А.В.", 2024, 189, 5.0}
 	b2.setTitle("Землянка 2")
 	b2.setID(2)
-	fmt.Println(b2.bookID(), b2.bookTitle())
+	b2.setAuthor("Лужнов")
+	b2.setRate(4.8)
+	b2.setYear(2021)
+	b2.setSize(188)
+	fmt.Println(b2.bookAuthor(), b2.bookRate(), b2.bookSize(), b2.bookYear(), b2.bookID(), b2.bookTitle())
 	fmt.Println("Вторая книга:")
 	fmt.Println(b2.getBaseInfo())
 	fmt.Println("\n----Сравнение книг----")
