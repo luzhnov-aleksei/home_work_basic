@@ -1,3 +1,3 @@
-module github.com/luzhnov-aleksei/hw04_struct_comparator
+module github.com/luzhnov-aleksei/home_work_basic/hw03_chessboard
 
 go 1.20
