@@ -4,7 +4,6 @@ import (
 	"errors"
 	"fmt"
 	"math"
-	"reflect"
 )
 
 type shape interface {
@@ -46,13 +45,10 @@ func (t triangle) area() (float64, error) {
 	return t.base * t.height / 2, nil
 }
 
-func calculateArea(s shape) (float64, error) {
-	v := reflect.ValueOf(s)
-	if v.Kind() == reflect.Ptr {
-		v = v.Elem()
-	}
-	if !v.Type().Implements(reflect.TypeOf((*shape)(nil)).Elem()) {
-		return 0, errors.New("некорректный тип данных, ожидается тип, реализующий интерфейс Shape")
+func calculateArea(data any) (float64, error) {
+	s, ok := data.(shape)
+	if !ok {
+		return 0.0, errors.New("object not shape")
 	}
 	return s.area()
 }
