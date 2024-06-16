@@ -1,4 +1,4 @@
-module github.com/luzhnov-aleksei/hw06_testing
+module github.com/luzhnov-aleksei/home_work_basic/hw06_testing
 
 go 1.20
 
