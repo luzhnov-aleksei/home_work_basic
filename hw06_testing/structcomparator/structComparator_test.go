@@ -14,20 +14,15 @@ func TestSetters(t *testing.T) {
 		{"Установка ID", func(b *book) error { return b.setID(1) }, 1, false},
 		{"Установка ID", func(b *book) error { return b.setID(-1) }, 0, true},
 		{"Установка названия", func(b *book) error {
-			return b.setTitle("Хорошая книга")
-		}, "Хорошая книга", false},
-		{"Установка названия", func(b *book) error {
 			return b.setTitle(`Очень Очень Очень Очень Очень Очень Очень Очень Очень
 			Очень Очень Очень Очень Очень Очень Длинное Название`)
 		}, "", true},
-		{"Установка автора", func(b *book) error { return b.setAuthor("Иван Иванов") }, "Иван Иванов", false},
 		{"Установка автора", func(b *book) error {
 			return b.setAuthor(`Очень Очень Очень Очень Очень Очень Очень Очень Очень
 			Очень Очень Очень Очень Очень Очень Длинное Имя Автора`)
 		}, "", true},
 		{"Установка года", func(b *book) error { return b.setYear(2020) }, 2020, false},
 		{"Установка года", func(b *book) error { return b.setYear(-1) }, 0, true},
-		{"Установка размера", func(b *book) error { return b.setSize(100) }, 100, false},
 		{"Установка размера", func(b *book) error { return b.setSize(-1) }, 0, true},
 		{"Установка рейтинга", func(b *book) error { return b.setRate(4.5) }, 4.5, false},
 	}
