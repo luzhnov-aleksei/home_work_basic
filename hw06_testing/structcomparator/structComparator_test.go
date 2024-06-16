@@ -11,20 +11,24 @@ func TestSetters(t *testing.T) {
 		expected interface{}
 		wantErr  bool
 	}{
-		{"Установка ID", func(b *book) error { return b.setID(1) }, 1, false},
-		{"Установка ID", func(b *book) error { return b.setID(-1) }, 0, true},
+		{"Установка названия", func(b *book) error {
+			return b.setTitle("Хорошая книга")
+		}, "Хорошая книга", false},
 		{"Установка названия", func(b *book) error {
 			return b.setTitle(`Очень Очень Очень Очень Очень Очень Очень Очень Очень
 			Очень Очень Очень Очень Очень Очень Длинное Название`)
 		}, "", true},
+		{"Установка автора", func(b *book) error { return b.setAuthor("Иван Иванов") }, "Иван Иванов", false},
 		{"Установка автора", func(b *book) error {
 			return b.setAuthor(`Очень Очень Очень Очень Очень Очень Очень Очень Очень
 			Очень Очень Очень Очень Очень Очень Длинное Имя Автора`)
 		}, "", true},
 		{"Установка года", func(b *book) error { return b.setYear(2020) }, 2020, false},
 		{"Установка года", func(b *book) error { return b.setYear(-1) }, 0, true},
+		{"Установка размера", func(b *book) error { return b.setSize(100) }, 100, false},
 		{"Установка размера", func(b *book) error { return b.setSize(-1) }, 0, true},
 		{"Установка рейтинга", func(b *book) error { return b.setRate(4.5) }, 4.5, false},
+		{"Установка рейтинга", func(b *book) error { return b.setRate(6) }, 0.0, true},
 	}
 
 	for _, tt := range tests {
@@ -35,9 +39,6 @@ func TestSetters(t *testing.T) {
 				t.Errorf("ожидается ошибка: %v, получено: %v", tt.wantErr, err)
 			}
 			v := tt.expected
-			if tt.name == "Установка корректного ID" && b.id != v {
-				t.Errorf("ожидается ID: %d, получено: %d", v, b.id)
-			}
 			if tt.name == "Установка корректного года" && b.year != v {
 				t.Errorf("ожидается год: %d, получено: %d", v, b.year)
 			}
@@ -59,7 +60,6 @@ func TestSetters(t *testing.T) {
 
 func TestGetters(t *testing.T) {
 	b := &book{
-		id:     1,
 		title:  "Тестовая книга",
 		author: "Иван Иванов",
 		year:   2021,
@@ -71,7 +71,6 @@ func TestGetters(t *testing.T) {
 		getFunc  func() interface{}
 		expected interface{}
 	}{
-		{"Получение ID", func() interface{} { return b.getID() }, 1},
 		{"Получение названия", func() interface{} { return b.getTitle() }, "Тестовая книга"},
 		{"Получение автора", func() interface{} { return b.getAuthor() }, "Иван Иванов"},
 		{"Получение года", func() interface{} { return b.getYear() }, 2021},

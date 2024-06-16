@@ -5,7 +5,6 @@ import (
 )
 
 type book struct {
-	id     int
 	title  string
 	author string
 	year   int
@@ -14,13 +13,6 @@ type book struct {
 }
 
 // Set.
-func (b *book) setID(id int) error {
-	if id < 0 {
-		return errors.New("некорректное id, введите положительное целое число")
-	}
-	b.id = id
-	return nil
-}
 
 func (b *book) setTitle(title string) error {
 	if len(title) > 99 {
@@ -63,9 +55,6 @@ func (b *book) setRate(rate float64) error {
 }
 
 // Get.
-func (b *book) getID() int {
-	return b.id
-}
 
 func (b *book) getTitle() string {
 	return b.title
