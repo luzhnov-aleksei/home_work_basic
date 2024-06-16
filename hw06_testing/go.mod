@@ -1,4 +1,5 @@
 module github.com/luzhnov-aleksei/hw06_testing
+// исправил модуль еще раз
 
 go 1.20
 
