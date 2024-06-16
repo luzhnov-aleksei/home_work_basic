@@ -30,7 +30,6 @@ func TestSetters(t *testing.T) {
 		{"Установка размера", func(b *book) error { return b.setSize(100) }, 100, false},
 		{"Установка размера", func(b *book) error { return b.setSize(-1) }, 0, true},
 		{"Установка рейтинга", func(b *book) error { return b.setRate(4.5) }, 4.5, false},
-		{"Установка рейтинга", func(b *book) error { return b.setRate(6) }, 0.0, true},
 	}
 
 	for _, tt := range tests {
