@@ -15,11 +15,16 @@ func ReadJSON(filePath string) ([]types.Employee, error) {
 		fmt.Printf("Error: %v", err)
 		return nil, err
 	}
+	defer f.Close()
 
 	byteChar, err := io.ReadAll(f)
 	if err != nil {
 		fmt.Printf("Error: %v", err)
 		return nil, err
+	}
+
+	if len(byteChar) == 0 {
+		return []types.Employee{}, nil
 	}
 
 	var data []types.Employee
@@ -29,7 +34,6 @@ func ReadJSON(filePath string) ([]types.Employee, error) {
 		fmt.Printf("Error: %v", err)
 		return nil, err
 	}
-	res := data
 
-	return res, nil
+	return data, nil
 }
