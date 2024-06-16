@@ -47,7 +47,7 @@ func (t triangle) area() (float64, error) {
 func calculateArea(data any) (float64, error) {
 	s, ok := data.(shape)
 	if !ok {
-		return 0.0, errors.New("object not shape")
+		return 0.0, errors.New("неизвестный тип фигуры")
 	}
 	return s.area()
 }

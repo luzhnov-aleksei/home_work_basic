@@ -2,27 +2,24 @@ package chessboard
 
 import (
 	"errors"
-	"fmt"
+	"strings"
 )
 
-func ChessBoard(width, height int) error {
-	if width <= 0 {
-		return errors.New("некорректное значение ширины поля, введите положительное целое число")
-	}
-	if height <= 0 {
-		return errors.New("некорректное значение высоты поля, введите положительное целое число")
+func ChessBoard(width, height int) (string, error) {
+	if width <= 0 || height <= 0 {
+		return "", errors.New("width and height must be greater than zero")
 	}
 
-	for j := 0; j < height; j++ {
-		for i := 0; i < width; i++ {
-			if j%2 == 0 {
-				fmt.Print(" #")
+	var board strings.Builder
+	for i := 0; i < height; i++ {
+		for j := 0; j < width; j++ {
+			if (i+j)%2 == 0 {
+				board.WriteRune('#') // Black square representation
 			} else {
-				fmt.Print("# ")
+				board.WriteRune(' ') // White square representation
 			}
 		}
-		fmt.Println()
+		board.WriteString("\n")
 	}
-	fmt.Println()
-	return nil
+	return board.String(), nil
 }
