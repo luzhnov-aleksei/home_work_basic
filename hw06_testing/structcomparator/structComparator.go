@@ -5,11 +5,10 @@ import (
 )
 
 type book struct {
-	title  string
-	author string
-	year   int
-	size   int
-	rate   float64
+	title string
+	year  int
+	size  int
+	rate  float64
 }
 
 // Set.
@@ -19,14 +18,6 @@ func (b *book) setTitle(title string) error {
 		return errors.New("слишком длинное название книги, введите значение меньше 99 символов")
 	}
 	b.title = title
-	return nil
-}
-
-func (b *book) setAuthor(author string) error {
-	if len(author) > 99 {
-		return errors.New("слишком длинное имя автора, введите значение меньше 99 символов")
-	}
-	b.author = author
 	return nil
 }
 
@@ -58,10 +49,6 @@ func (b *book) setRate(rate float64) error {
 
 func (b *book) getTitle() string {
 	return b.title
-}
-
-func (b *book) getAuthor() string {
-	return b.author
 }
 
 func (b *book) getYear() int {

@@ -18,11 +18,6 @@ func TestSetters(t *testing.T) {
 			return b.setTitle(`Очень Очень Очень Очень Очень Очень Очень Очень Очень
 			Очень Очень Очень Очень Очень Очень Длинное Название`)
 		}, "", true},
-		{"Установка автора", func(b *book) error { return b.setAuthor("Иван Иванов") }, "Иван Иванов", false},
-		{"Установка автора", func(b *book) error {
-			return b.setAuthor(`Очень Очень Очень Очень Очень Очень Очень Очень Очень
-			Очень Очень Очень Очень Очень Очень Длинное Имя Автора`)
-		}, "", true},
 		{"Установка года", func(b *book) error { return b.setYear(2020) }, 2020, false},
 		{"Установка года", func(b *book) error { return b.setYear(-1) }, 0, true},
 		{"Установка размера", func(b *book) error { return b.setSize(100) }, 100, false},
@@ -48,9 +43,6 @@ func TestSetters(t *testing.T) {
 			if tt.name == "Установка корректного названия" && b.title != v {
 				t.Errorf("ожидается название: %s, получено: %s", v, b.title)
 			}
-			if tt.name == "Установка корректного автора" && b.author != v {
-				t.Errorf("ожидается автор: %s, получено: %s", v, b.author)
-			}
 			if tt.name == "Установка корректного рейтинга" && b.rate != v {
 				t.Errorf("ожидается рейтинг: %f, получено: %f", v, b.rate)
 			}
@@ -60,11 +52,10 @@ func TestSetters(t *testing.T) {
 
 func TestGetters(t *testing.T) {
 	b := &book{
-		title:  "Тестовая книга",
-		author: "Иван Иванов",
-		year:   2021,
-		size:   123,
-		rate:   4.5,
+		title: "Тестовая книга",
+		year:  2021,
+		size:  123,
+		rate:  4.5,
 	}
 	tests := []struct {
 		name     string
@@ -72,7 +63,6 @@ func TestGetters(t *testing.T) {
 		expected interface{}
 	}{
 		{"Получение названия", func() interface{} { return b.getTitle() }, "Тестовая книга"},
-		{"Получение автора", func() interface{} { return b.getAuthor() }, "Иван Иванов"},
 		{"Получение года", func() interface{} { return b.getYear() }, 2021},
 		{"Получение размера", func() interface{} { return b.getSize() }, 123},
 		{"Получение рейтинга", func() interface{} { return b.getRate() }, 4.5},
