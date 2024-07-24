@@ -25,7 +25,7 @@ func TestSerializeBooks(t *testing.T) {
 
 func TestDeserializeBooks(t *testing.T) {
 	originalBooks := []*protofile.Book{
-		{Id: 1, Title: "Go Programming", Author: "John Doe", Year: 2023, Size: 300, Rate: 4.5},
+		{Id: 1, Title: "Go Programming", Author: "John Doe", Year: 2022, Size: 300, Rate: 4.5},
 		{Id: 2, Title: "Learning Go", Author: "Jane Smith", Year: 2022, Size: 250, Rate: 4.0},
 	}
 
