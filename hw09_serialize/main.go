@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/luzhnov-aleksei/hw09_serialize/protofile"
+	"github.com/luzhnov-aleksei/home_work_basic/hw09_serialize/protofile"
 	"google.golang.org/protobuf/proto"
 )
 
