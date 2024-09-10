@@ -24,7 +24,6 @@ type status struct {
 }
 
 func (cfg *appConfig) ConfigFile(value string) {
-	// fmt.Println(value)
 	switch {
 	case value == "":
 		cfg.File = os.Getenv("LOG_ANALYZER_FILE")
