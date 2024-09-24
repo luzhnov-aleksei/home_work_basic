@@ -31,6 +31,7 @@ func TestSort(t *testing.T) {
 			},
 		},
 	}
+
 	for _, tC := range testCases {
 		t.Run(tC.desc, func(t *testing.T) {
 			got := sort(tC.sl, tC.level)

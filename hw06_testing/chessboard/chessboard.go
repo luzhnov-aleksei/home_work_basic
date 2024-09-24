@@ -5,7 +5,6 @@ import (
 	"strings"
 )
 
-
 func ChessBoard(width, height int) (string, error) {
 	if width <= 0 || height <= 0 {
 		return "", errors.New("ширина и высота должны быть больше нуля")
@@ -15,9 +14,9 @@ func ChessBoard(width, height int) (string, error) {
 	for i := 0; i < height; i++ {
 		for j := 0; j < width; j++ {
 			if (i+j)%2 == 0 {
-				board.WriteRune('#') 
+				board.WriteRune('#')
 			} else {
-				board.WriteRune(' ') 
+				board.WriteRune(' ')
 			}
 		}
 		board.WriteString("\n")

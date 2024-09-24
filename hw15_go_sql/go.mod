@@ -1,3 +1,3 @@
-module github.com/fixme_my_friend/hw15_go_sql
+module github.com/luzhnov-aleksei/home_work_basic/hw15_go_sql
 
-go 1.20
+go 1.22

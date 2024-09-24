@@ -47,6 +47,5 @@ func TestChessBoard(t *testing.T) {
 		if err != nil {
 			continue
 		}
-
 	}
 }
