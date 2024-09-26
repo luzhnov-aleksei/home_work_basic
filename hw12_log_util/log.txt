@@ -1,0 +1,131 @@
+info	20.03.2024 22:03:33	Microsoft-Windows-Kernel-General	16		    C:\ProgramData\Packages\CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc\S-1-5-21-4048546832-4277127139-1130880578-1002\SystemAppData\Helium\Cache\c50ff1672dae85c9_COM15.dat ;  : 1;   : 1.
+info	20.03.2024 22:03:33	Microsoft-Windows-Kernel-General	16		    C:\Users\timur\AppData\Local\Packages\CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc\SystemAppData\Helium\UserClasses.dat ;  : 1;   : 1.
+info	20.03.2024 22:03:33	Microsoft-Windows-Kernel-General	16		    C:\Users\timur\AppData\Local\Packages\CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc\SystemAppData\Helium\User.dat ;  : 1;   : 1.
+info	20.03.2024 20:33:38	Microsoft-Windows-Kernel-Power	105	(100)	  .
+info	20.03.2024 19:01:08	Microsoft-Windows-Kernel-Power	566	(268)	    139  140.
+info	20.03.2024 19:01:07	Microsoft-Windows-Kernel-Power	172	(203)	    : Connected, : None
+warning	20.03.2024 19:01:07	Win32k	701		        (INPUT_SUPPRESS_REQUEST=0)
+warning	20.03.2024 19:01:07	Win32k	701		        (INPUT_SUPPRESS_REQUEST=0)
+info	20.03.2024 19:01:01	Microsoft-Windows-Kernel-Power	172	(203)	    : Disconnected, : Adaptive Connected Standby
+info	20.03.2024 19:00:56	Microsoft-Windows-Kernel-Power	566	(268)	    138  139.
+warning	20.03.2024 19:00:55	Win32k	700		       (INPUT_SUPPRESS_REQUEST=1)
+warning	20.03.2024 19:00:55	Win32k	700		       (INPUT_SUPPRESS_REQUEST=1)
+info	20.03.2024 18:57:01	Microsoft-Windows-Kernel-Power	105	(100)	  .
+error	20.03.2024 18:15:01	Service Control Manager	7023		 Mozilla Maintenance Service  -  
+ .
+info	20.03.2024 18:14:57	Microsoft-Windows-Kernel-Power	105	(100)	  .
+info	20.03.2024 16:59:10	Microsoft-Windows-Kernel-Power	566	(268)	    136  137.
+warning	20.03.2024 16:59:09	Win32k	701		        (INPUT_SUPPRESS_REQUEST=0)
+warning	20.03.2024 16:59:09	Win32k	701		        (INPUT_SUPPRESS_REQUEST=0)
+info	20.03.2024 16:59:09	Microsoft-Windows-Kernel-Power	172	(203)	    : Connected, : None
+info	20.03.2024 16:55:40	Microsoft-Windows-Kernel-Power	172	(203)	    : Disconnected, : Adaptive Connected Standby
+info	20.03.2024 16:55:32	Microsoft-Windows-Kernel-Power	566	(268)	    135  136.
+info	20.03.2024 16:55:28	Microsoft-Windows-Kernel-Power	105	(100)	  .
+info	20.03.2024 16:28:50	Microsoft-Windows-Kernel-General	16		    C:\Users\timur\AppData\Local\Packages\Microsoft.ScreenSketch_8wekyb3d8bbwe\Settings\settings.dat ;  : 2;   : 1.
+info	20.03.2024 16:28:50	Microsoft-Windows-Kernel-General	16		    C:\ProgramData\Packages\Microsoft.ScreenSketch_8wekyb3d8bbwe\S-1-5-21-4048546832-4277127139-1130880578-1002\SystemAppData\Helium\Cache\3e5c3854078d08d8_COM15.dat ;  : 1;   : 1.
+info	20.03.2024 16:28:50	Microsoft-Windows-Kernel-General	16		    C:\Users\timur\AppData\Local\Packages\Microsoft.ScreenSketch_8wekyb3d8bbwe\SystemAppData\Helium\UserClasses.dat ;  : 15;   : 3.
+info	20.03.2024 16:28:50	Microsoft-Windows-Kernel-General	16		    C:\Users\timur\AppData\Local\Packages\Microsoft.ScreenSketch_8wekyb3d8bbwe\SystemAppData\Helium\User.dat ;  : 10;   : 3.
+info	20.03.2024 16:23:13	Microsoft-Windows-Kernel-Power	105	(100)	  .
+info	20.03.2024 16:19:21	Microsoft-Windows-Kernel-Power	105	(100)	  .
+info	20.03.2024 16:03:24	Microsoft-Windows-Kernel-Power	105	(100)	  .
+info	20.03.2024 13:58:54	Microsoft-Windows-Kernel-Power	566	(268)	    133  134.
+warning	20.03.2024 13:50:38	Win32k	700		       (INPUT_SUPPRESS_REQUEST=1)
+warning	20.03.2024 13:50:38	Win32k	700		       (INPUT_SUPPRESS_REQUEST=1)
+info	20.03.2024 13:35:10	Microsoft-Windows-Kernel-Power	566	(268)	    130  131.
+warning	20.03.2024 13:35:08	Win32k	701		        (INPUT_SUPPRESS_REQUEST=0)
+warning	20.03.2024 13:35:08	Win32k	701		        (INPUT_SUPPRESS_REQUEST=0)
+info	20.03.2024 13:35:08	Microsoft-Windows-Kernel-Power	172	(203)	    : Connected, : None
+info	20.03.2024 13:34:13	BTHUSB	18		 Windows       Bluetooth ( )   .  Bluetooth     BIOS    .
+info	20.03.2024 13:21:33	Microsoft-Windows-Kernel-Power	172	(203)	    : Disconnected, : Adaptive Connected Standby
+info	20.03.2024 13:21:23	Microsoft-Windows-HttpService	114	HTTP Configuration Property Trace Task	(0xFA0000042000008D).   0x1858     \Device\HarddiskVolume3\Windows\System32\svchost.exe,  LOCAL SERVICE
+info	20.03.2024 13:21:23	Microsoft-Windows-Kernel-Power	566	(268)	    129  130.
+warning	20.03.2024 13:21:21	Win32k	700		       (INPUT_SUPPRESS_REQUEST=1)
+warning	20.03.2024 13:21:21	Win32k	700		       (INPUT_SUPPRESS_REQUEST=1)
+info	20.03.2024 13:21:21	Microsoft-Windows-Kernel-Power	506	(157)	     
+info	20.03.2024 13:21:19	Microsoft-Windows-Kernel-Power	105	(100)	  .
+info	20.03.2024 13:04:11	Microsoft-Windows-Kernel-General	15	(10)	 C:\WINDOWS\System32\config\COMPONENTS  ;  : 60698624 ,  : 39378944 .
+info	20.03.2024 12:47:30	Volsnap	33		     C:      ,     C:,  ,  .
+info	20.03.2024 12:27:27	Microsoft-Windows-HttpService	113	HTTP Configuration Property Trace Task	  (0xFA0000042000008D). : 0x0.   0x1858     \Device\HarddiskVolume3\Windows\System32\svchost.exe,  LOCAL SERVICE
+info	20.03.2024 12:27:27	Microsoft-Windows-HttpService	114	HTTP Configuration Property Trace Task	(0xFE00000020000044).   0x1858     \Device\HarddiskVolume3\Windows\System32\svchost.exe,  LOCAL SERVICE
+info	20.03.2024 12:27:27	Microsoft-Windows-HttpService	113	HTTP Configuration Property Trace Task	  (0xFE00000020000044). : 0x0.   0x1858     \Device\HarddiskVolume3\Windows\System32\svchost.exe,  LOCAL SERVICE
+info	20.03.2024 12:27:27	Microsoft-Windows-HttpService	114	HTTP Configuration Property Trace Task	(0xFE0000022000002F).   0x1858     \Device\HarddiskVolume3\Windows\System32\svchost.exe,  LOCAL SERVICE
+info	20.03.2024 12:27:11	Microsoft-Windows-HttpService	113	HTTP Configuration Property Trace Task	  (0xFE0000022000002F). : 0x0.   0x1858     \Device\HarddiskVolume3\Windows\System32\svchost.exe,  LOCAL SERVICE
+info	20.03.2024 12:27:11	Microsoft-Windows-HttpService	114	HTTP Configuration Property Trace Task	(0xFE0000022000002E).   0x1858     \Device\HarddiskVolume3\Windows\System32\svchost.exe,  LOCAL SERVICE
+info	20.03.2024 12:27:11	Microsoft-Windows-HttpService	113	HTTP Configuration Property Trace Task	  (0xFE0000022000002E). : 0x0.   0x1858     \Device\HarddiskVolume3\Windows\System32\svchost.exe,  LOCAL SERVICE
+info	20.03.2024 12:27:11	Microsoft-Windows-HttpService	114	HTTP Configuration Property Trace Task	(0xFF000001200001F2).   0x1858     \Device\HarddiskVolume3\Windows\System32\svchost.exe,  LOCAL SERVICE
+info	20.03.2024 12:27:03	Microsoft-Windows-HttpService	113	HTTP Configuration Property Trace Task	  (0xFF000001200001F2). : 0x0.   0x1858     \Device\HarddiskVolume3\Windows\System32\svchost.exe,  LOCAL SERVICE
+info	20.03.2024 12:27:03	Microsoft-Windows-HttpService	114	HTTP Configuration Property Trace Task	(0xFE00000020000043).   0x1858     \Device\HarddiskVolume3\Windows\System32\svchost.exe,  LOCAL SERVICE
+info	20.03.2024 12:27:03	Microsoft-Windows-HttpService	113	HTTP Configuration Property Trace Task	  (0xFE00000020000043). : 0x0.   0x1858     \Device\HarddiskVolume3\Windows\System32\svchost.exe,  LOCAL SERVICE
+info	20.03.2024 12:27:03	Microsoft-Windows-HttpService	114	HTTP Configuration Property Trace Task	(0xFE00000020000042).   0x1858     \Device\HarddiskVolume3\Windows\System32\svchost.exe,  LOCAL SERVICE
+info	20.03.2024 12:26:55	Microsoft-Windows-HttpService	113	HTTP Configuration Property Trace Task	  (0xFE00000020000042). : 0x0.   0x1858     \Device\HarddiskVolume3\Windows\System32\svchost.exe,  LOCAL SERVICE
+info	20.03.2024 12:26:55	Microsoft-Windows-HttpService	114	HTTP Configuration Property Trace Task	(0xFE0000022000002D).   0x1858     \Device\HarddiskVolume3\Windows\System32\svchost.exe,  LOCAL SERVICE
+info	20.03.2024 12:26:55	Microsoft-Windows-HttpService	113	HTTP Configuration Property Trace Task	  (0xFE0000022000002D). : 0x0.   0x1858     \Device\HarddiskVolume3\Windows\System32\svchost.exe,  LOCAL SERVICE
+info	20.03.2024 12:26:55	Microsoft-Windows-HttpService	114	HTTP Configuration Property Trace Task	(0xFE00000920000002).   0x1858     \Device\HarddiskVolume3\Windows\System32\svchost.exe,  LOCAL SERVICE
+warning	20.03.2024 12:18:17	Microsoft-Windows-DistributedCOM	10016		            COM-  CLSID 
+info	20.03.2024 12:07:31	Microsoft-Windows-Kernel-Power	566	(268)	    126  128.
+info	20.03.2024 12:07:31	Microsoft-Windows-Kernel-Power	507	(158)	     
+info	20.03.2024 12:05:55	Microsoft-Windows-Kernel-Power	506	(157)	     
+info	20.03.2024 12:05:55	Microsoft-Windows-Kernel-Power	566	(268)	    125  126.
+info	20.03.2024 12:00:00	EventLog	6013		   177511 .
+info	20.03.2024 10:47:41	Microsoft-Windows-Kernel-Power	566	(268)	    123  125.
+info	20.03.2024 10:47:41	Microsoft-Windows-Kernel-Power	507	(158)	     
+info	20.03.2024 10:46:13	Microsoft-Windows-Kernel-Power	506	(157)	     
+info	20.03.2024 10:46:13	Microsoft-Windows-Kernel-Power	566	(268)	    122  123.
+error	20.03.2024 9:43:30	Microsoft-Windows-DistributedCOM	10001		   DCOM-: MicrosoftWindows.Client.WebExperience_423.23500.0.0_x64__cw5n1h2txyewy!WindowsUdk.UI.Shell.Dashboard.DashboardExtension  /.error:
+info	20.03.2024 9:31:53	Microsoft-Windows-HttpService	113	HTTP Configuration Property Trace Task	  (0xFE00000920000002). : 0x0.   0x1858     \Device\HarddiskVolume3\Windows\System32\svchost.exe,  LOCAL SERVICE
+info	20.03.2024 9:31:53	Microsoft-Windows-HttpService	114	HTTP Configuration Property Trace Task	(0xFE0000072000000D).   0x1858     \Device\HarddiskVolume3\Windows\System32\svchost.exe,  LOCAL SERVICE
+info	20.03.2024 9:31:53	Microsoft-Windows-HttpService	113	HTTP Configuration Property Trace Task	  (0xFE0000072000000D). : 0x0.   0x1858     \Device\HarddiskVolume3\Windows\System32\svchost.exe,  LOCAL SERVICE
+info	20.03.2024 9:31:53	Microsoft-Windows-HttpService	114	HTTP Configuration Property Trace Task	(0xFA0000042000008C).   0x1858     \Device\HarddiskVolume3\Windows\System32\svchost.exe,  LOCAL SERVICE
+info	20.03.2024 9:31:41	Microsoft-Windows-HttpService	113	HTTP Configuration Property Trace Task	  (0xFA0000042000008C). : 0x0.   0x1858     \Device\HarddiskVolume3\Windows\System32\svchost.exe,  LOCAL SERVICE
+info	20.03.2024 9:31:41	Microsoft-Windows-HttpService	114	HTTP Configuration Property Trace Task	(0xFE0000022000002C).   0x1858     \Device\HarddiskVolume3\Windows\System32\svchost.exe,  LOCAL SERVICE
+info	20.03.2024 9:31:36	Microsoft-Windows-HttpService	113	HTTP Configuration Property Trace Task	  (0xFE0000022000002C). : 0x0.   0x1858     \Device\HarddiskVolume3\Windows\System32\svchost.exe,  LOCAL SERVICE
+info	20.03.2024 9:31:32	Service Control Manager	7040		       (BITS)      .
+info	20.03.2024 9:27:54	Microsoft-Windows-HttpService	114	HTTP Configuration Property Trace Task	(0xFF000001200001F1).   0x1858     \Device\HarddiskVolume3\Windows\System32\svchost.exe,  LOCAL SERVICE
+info	20.03.2024 9:27:54	Service Control Manager	7040		       (BITS)      .
+info	20.03.2024 9:25:38	Microsoft-Windows-HttpService	113	HTTP Configuration Property Trace Task	  (0xFF000001200001F1). : 0x0.   0x1858     \Device\HarddiskVolume3\Windows\System32\svchost.exe,  LOCAL SERVICE
+info	20.03.2024 9:25:38	Microsoft-Windows-HttpService	114	HTTP Configuration Property Trace Task	(0xFE0000022000002B).   0x1858     \Device\HarddiskVolume3\Windows\System32\svchost.exe,  LOCAL SERVICE
+info	20.03.2024 9:25:38	Microsoft-Windows-HttpService	113	HTTP Configuration Property Trace Task	  (0xFE0000022000002B). : 0x0.   0x1858     \Device\HarddiskVolume3\Windows\System32\svchost.exe,  LOCAL SERVICE
+info	20.03.2024 9:25:38	Microsoft-Windows-HttpService	114	HTTP Configuration Property Trace Task	(0xFF00000520000038).   0x1858     \Device\HarddiskVolume3\Windows\System32\svchost.exe,  LOCAL SERVICE
+info	20.03.2024 9:25:27	Microsoft-Windows-HttpService	113	HTTP Configuration Property Trace Task	  (0xFF00000520000038). : 0x0.   0x1858     \Device\HarddiskVolume3\Windows\System32\svchost.exe,  LOCAL SERVICE
+info	20.03.2024 9:25:27	Microsoft-Windows-HttpService	114	HTTP Configuration Property Trace Task	(0xFE00000020000041).   0x1858     \Device\HarddiskVolume3\Windows\System32\svchost.exe,  LOCAL SERVICE
+info	20.03.2024 9:25:22	Microsoft-Windows-HttpService	113	HTTP Configuration Property Trace Task	  (0xFE00000020000041). : 0x0.   0x1858     \Device\HarddiskVolume3\Windows\System32\svchost.exe,  LOCAL SERVICE
+info	20.03.2024 9:25:18	Service Control Manager	7040		       (BITS)      .
+info	20.03.2024 9:17:04	Service Control Manager	7040		       (BITS)      .
+error	20.03.2024 9:15:01	Microsoft-Windows-DistributedCOM	10001		   DCOM-: MicrosoftWindows.Client.WebExperience_423.23500.0.0_x64__cw5n1h2txyewy!WindowsUdk.UI.Shell.Dashboard.DashboardExtension  /.error:
+info	20.03.2024 9:14:58	Service Control Manager	7040		       (BITS)      .
+info	20.03.2024 9:13:33	Microsoft-Windows-Kernel-Power	566	(268)	    120  122.
+info	20.03.2024 9:13:33	Microsoft-Windows-Kernel-Power	507	(158)	     
+info	20.03.2024 7:29:27	Microsoft-Windows-HttpService	114	HTTP Configuration Property Trace Task	(0xFE0000022000002A).   0x1858     \Device\HarddiskVolume3\Windows\System32\svchost.exe,  LOCAL SERVICE
+info	20.03.2024 7:29:27	Service Control Manager	7040		       (BITS)      .
+info	20.03.2024 7:27:19	Microsoft-Windows-HttpService	113	HTTP Configuration Property Trace Task	  (0xFE0000022000002A). : 0x0.   0x1858     \Device\HarddiskVolume3\Windows\System32\svchost.exe,  LOCAL SERVICE
+info	20.03.2024 7:27:19	Microsoft-Windows-HttpService	114	HTTP Configuration Property Trace Task	(0xFE0000032000004E).   0x1858     \Device\HarddiskVolume3\Windows\System32\svchost.exe,  LOCAL SERVICE
+info	20.03.2024 7:27:19	Microsoft-Windows-HttpService	113	HTTP Configuration Property Trace Task	  (0xFE0000032000004E). : 0x0.   0x1858     \Device\HarddiskVolume3\Windows\System32\svchost.exe,  LOCAL SERVICE
+info	20.03.2024 7:27:19	Microsoft-Windows-HttpService	114	HTTP Configuration Property Trace Task	(0xFE0000032000004D).   0x1858     \Device\HarddiskVolume3\Windows\System32\svchost.exe,  LOCAL SERVICE
+info	20.03.2024 7:27:04	Microsoft-Windows-HttpService	113	HTTP Configuration Property Trace Task	  (0xFE0000032000004D). : 0x0.   0x1858     \Device\HarddiskVolume3\Windows\System32\svchost.exe,  LOCAL SERVICE
+info	20.03.2024 7:27:03	Microsoft-Windows-HttpService	114	HTTP Configuration Property Trace Task	(0xFF000001200001F0).   0x1858     \Device\HarddiskVolume3\Windows\System32\svchost.exe,  LOCAL SERVICE
+info	20.03.2024 7:26:59	Microsoft-Windows-HttpService	113	HTTP Configuration Property Trace Task	  (0xFF000001200001F0). : 0x0.   0x1858     \Device\HarddiskVolume3\Windows\System32\svchost.exe,  LOCAL SERVICE
+info	20.03.2024 7:26:54	Service Control Manager	7040		       (BITS)      .
+info	20.03.2024 6:14:04	Service Control Manager	7040		       (BITS)      .
+info	20.03.2024 6:11:59	Service Control Manager	7040		       (BITS)      .
+info	20.03.2024 4:40:26	Service Control Manager	7040		       (BITS)      .
+info	20.03.2024 4:38:21	Service Control Manager	7040		       (BITS)      .
+info	20.03.2024 3:54:57	Service Control Manager	7040		       (BITS)      .
+info	20.03.2024 3:52:50	Service Control Manager	7040		       (BITS)      .
+info	20.03.2024 3:50:58	Service Control Manager	7040		       (BITS)      .
+info	20.03.2024 3:48:51	Service Control Manager	7040		       (BITS)      .
+info	20.03.2024 3:11:00	Service Control Manager	7040		       (BITS)      .
+info	20.03.2024 3:08:54	Service Control Manager	7040		       (BITS)      .
+info	20.03.2024 2:45:12	Microsoft-Windows-Kernel-General	16		    C:\WINDOWS\ServiceProfiles\NetworkService\AppData\Local\Microsoft\Windows\DeliveryOptimization\State\dosvcState.dat ;  : 6;   : 1.
+info	20.03.2024 2:10:19	Service Control Manager	7040		       (BITS)      .
+info	20.03.2024 2:08:13	Service Control Manager	7040		       (BITS)      .
+info	20.03.2024 1:27:14	Microsoft-Windows-Kernel-General	1	(5)	   
+info	20.03.2024 1:27:14	Microsoft-Windows-Kernel-General	24	(11)	        0.     — -180.
+info	20.03.2024 1:27:14	Microsoft-Windows-Time-Service	35		         time.windows.com,0x9 (ntp.m|0x9|0.0.0.0:123->40.119.148.38:123)    647264040.    : 4.
+info	20.03.2024 1:27:14	Microsoft-Windows-Time-Service	37		NTP-         time.windows.com,0x9 (ntp.m|0x9|0.0.0.0:123->40.119.148.38:123).
+info	20.03.2024 0:21:30	Microsoft-Windows-HttpService	114	HTTP Configuration Property Trace Task	(0xFF000001200001EF).   0x1858     \Device\HarddiskVolume3\Windows\System32\svchost.exe,  LOCAL SERVICE
+info	20.03.2024 0:21:30	Service Control Manager	7040		       (BITS)      .
+info	20.03.2024 0:19:26	Microsoft-Windows-HttpService	113	HTTP Configuration Property Trace Task	  (0xFF000001200001EF). : 0x0.   0x1858     \Device\HarddiskVolume3\Windows\System32\svchost.exe,  LOCAL SERVICE
+info	20.03.2024 0:19:26	Microsoft-Windows-HttpService	114	HTTP Configuration Property Trace Task	(0xFE00000020000040).   0x1858     \Device\HarddiskVolume3\Windows\System32\svchost.exe,  LOCAL SERVICE
+info	20.03.2024 0:19:22	Microsoft-Windows-HttpService	113	HTTP Configuration Property Trace Task	  (0xFE00000020000040). : 0x0.   0x1858     \Device\HarddiskVolume3\Windows\System32\svchost.exe,  LOCAL SERVICE
+info	20.03.2024 0:19:17	Service Control Manager	7040		       (BITS)      .
+info	19.03.2024 22:21:27	Microsoft-Windows-Kernel-Power	506	(157)	     
