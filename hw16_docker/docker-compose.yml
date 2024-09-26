@@ -1,0 +1,26 @@
+services:
+    app:
+        build: .
+        container_name: online-shop
+        volumes:
+            - ./config/:/app/config/
+        ports:
+            - 80:10001
+        links:
+            - db
+        environment:
+            CONFIG_PATH: /app/config/local.yaml
+
+    db:
+        build: ../hw15_go_sql/internal/storage/postgres/docker-compose.yml
+        image: postgres:16-alpine
+        container_name: my-db
+        volumes:
+            - ../hw15_go_sql/internal/storage/postgres:/docker-entrypoint-initdb.d
+        ports:
+            - 5432:5432
+        environment:
+            POSTGRES_DB: db
+            POSTGRES_USER: postgres
+            POSTGRES_PASSWORD: admin
+            PGDATA: /var/lib/postgresql/data/pgdata
