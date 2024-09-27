@@ -2,9 +2,9 @@ enviroment: local
 database:
     driverName: postgres
     # trunk-ignore(checkov/CKV_SECRET_4)
-    dsn: postgres://postgres:admin@localhost/db?sslmode=disable
+    dsn: postgres://postgres:admin@my-db:5432/db?sslmode=disable
 
 httpServer:
-    address: localhost:10001
+    address: app:8080
     timeout: 4s
     idleTimeout: 60s

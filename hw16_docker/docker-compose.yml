@@ -5,14 +5,13 @@ services:
         volumes:
             - ./config/:/app/config/
         ports:
-            - 80:10001
+            - 80:8080
         links:
             - db
         environment:
             CONFIG_PATH: /app/config/local.yaml
 
     db:
-        build: ../hw15_go_sql/internal/storage/postgres/docker-compose.yml
         image: postgres:16-alpine
         container_name: my-db
         volumes:

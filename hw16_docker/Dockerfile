@@ -13,5 +13,4 @@ COPY --from=builder /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/
 COPY --from=builder /usr/local/go/src/go_sql/go_sql /app/
 HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
   CMD curl --fail http://localhost:8080/health || exit 1
-
 CMD ["/app/go_sql"]

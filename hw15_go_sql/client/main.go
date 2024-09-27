@@ -17,7 +17,7 @@ var (
 func init() {
 	if flag.Lookup("url") == nil {
 		flag.StringVar(&url, "url",
-			"http://localhost:10001", "Server URL")
+			"http://app:8080", "Server URL")
 	}
 	if flag.Lookup("path") == nil {
 		flag.StringVar(&path, "path",
